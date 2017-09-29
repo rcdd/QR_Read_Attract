@@ -1,0 +1,21 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>QR Code Reader by Attract</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="Scan">
+  <div class="row">
+    <div class="logo">
+      <img src="assets/img/logo_white.png" alt="Logo Attract">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="message">Clique no botão "Scan" para ler o QR</div>
+    </div>
+  </div>
+  <button ion-button block color="secondary" class="Scan-button" (click)="scanQR()" [disabled]="loading">{{buttonText}}</button>
+</ion-content>
