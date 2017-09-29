@@ -33,8 +33,9 @@ export class ScanPage {
 
   public scanQR() {
     let options = {
-      prompt: "Aponte para o QR Code ",
-      showTorchButton: true
+      prompt: "Aponte para o código QR",
+      showTorchButton: true,
+      resultDisplayDuration: 0
     }
     this.buttonText = "Loading..";
     this.loading = true;

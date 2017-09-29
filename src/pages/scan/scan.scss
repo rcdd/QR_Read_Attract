@@ -1,26 +1,44 @@
 page-scan {
-  .Scan{
-    background: #fff;
-    color: #c7932b;
-  }
-
-  .Scan-button {
-    color: #ffffff;
-    background-color:#c7932b;
-  }
-
-  .logo {
-    width: 100%;
-    text-align: center;
-  }
-
-  .logo img {
-    max-height: 30rem;
-  }
-
-  .message {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    font-size: 2rem;
-    text-align: center;
-  }
+    ion-title {
+        .title {
+            text-align: center;
+        }
+        img {
+            left: 0rem;
+            width: 3rem;
+        }
+    }
+    .Scan {
+        background: #fff;
+        color: #c7932b;
+    }
+    .Scan-button {
+        color: #ffffff;
+        background-color: #c7932b;
+        font-size: 3.5rem;
+        height: 5rem;
+    }
+    .logo {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+        img {
+            max-height: 25rem;
+        }
+    }
+    .message {
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .pub {
+        z-index: -2;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        img {
+            max-height: 25rem;
+        }
+    }
 }

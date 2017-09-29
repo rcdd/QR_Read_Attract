@@ -1,7 +1,16 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>QR Code Reader by Attract</ion-title>
+    <ion-title>
+      <div class="row">
+        <div class="col-md-1">
+          <img src="assets/img/logo_white.png" alt="Logo Attract">
+        </div>
+        <div class="col">
+          <div class="title">QR Scanner by Attract</div>
+        </div>
+      </div>
+    </ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -18,4 +27,9 @@
     </div>
   </div>
   <button ion-button block color="secondary" class="Scan-button" (click)="scanQR()" [disabled]="loading">{{buttonText}}</button>
+  <div class="row">
+    <div class="pub">
+      <img src="assets/img/ads.jpg" alt="Advertising">
+    </div>
+  </div>
 </ion-content>
